@@ -1,0 +1,27 @@
+<section class="gutbbl-sec">
+    <div class="container">
+        <h3 class="sec-titl">
+            <p>What's Your Gut Feeling?</p>
+            The Gut Bible</h3>
+    </div>
+</section>
+
+<style>
+  .gutbbl-sec:before, .gutbbl-sec:after{
+     background: url({{ 'sectionwhite-shape.svg' | asset_url }}) no-repeat;
+     background-size:100%;
+  }
+
+  .gutbbl-sec:after{
+      top: auto;
+      bottom: -90px;
+      transform: rotate(180deg);
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Blog Section past",
+    "settings": []
+  }
+{% endschema %}
