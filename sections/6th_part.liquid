@@ -1,0 +1,151 @@
+
+<div class="realcustomr-sec">
+    <div class="container">
+        <h3 class="sec-titl">Real Results from Real Customers</h3>
+    </div>
+
+    <div class="container">
+       <div class="row couter-row">
+        <div class="col-md-3 col-sm-12 coutercard">
+            <div class="progressbr">
+                <div class="prgress-fill"></div>
+            </div>
+            <h6>98</h6><span>&#37;</span>
+            <p>Customers reported<br> <em>improvement in</em><br> <em class="sendline1">their mood.</em></p>
+        </div>
+
+        <div class="col-md-3 col-sm-12 coutercard">
+            <div class="progressbr">
+                <div class="prgress-fill"></div>
+            </div>
+            <h6>98</h6><span>&#37;</span>
+            <p>Customers reported<br> <em>fewer skin related issues.</em></p>
+        </div>
+
+        <div class="col-md-3 col-sm-12 coutercard">
+            <div class="progressbr">
+                <div class="prgress-fill"></div>
+            </div>
+            <h6>98</h6><span>&#37;</span>
+            <p>Customers reported<br> <em>improved regularity, and</em><br> <em class="sendline2">reduced digestive upsets.</em></p>
+        </div>
+
+        <div class="col-md-3 col-sm-12 coutercard">
+            <div class="progressbr">
+                <div class="prgress-fill"></div>
+            </div>
+            <h6>98</h6><span>&#37;</span>
+            <p>Customers reported<br> <em>fewer sick days.</em></p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<style>
+  .coutercard{
+      background:url({{ 'counterbg.svg' | asset_url }}) no-repeat;
+      background-size: 100%;
+      background-position:top center;
+    }
+
+  .coutercard:first-child p em{
+      background:url({{ 'perabg1.svg' | asset_url }}) no-repeat;
+      background-size: 100%;
+      background-position: left 3px;
+      padding: 0 2px 0;
+      &.sendline1{
+        background:url({{ 'scndline-bg1.svg' | asset_url }}) no-repeat;
+        background-size: 100%;
+        background-position: left 3px;
+        padding: 0 0 0 2px;
+      }
+    }
+
+  .coutercard:nth-child(2) p em{
+      background:url({{ 'perabg2.svg' | asset_url }}) no-repeat;
+      background-size: 100%;
+      background-position: left 3px;
+      padding: 0 2px 0;
+    }
+
+  .coutercard:nth-child(3) p em{
+      background:url({{ 'perabg3.svg' | asset_url }}) no-repeat;
+      background-size: 100%;
+      background-position: left 3px;
+      padding: 0 2px 0;
+
+      &.sendline2{
+        background:url({{ 'sncdline-bg2.svg' | asset_url }}) no-repeat;
+        background-size: 100%;
+        background-position: left 3px;
+        padding: 0 0 0 2px;
+      }
+   
+    }
+
+  .coutercard:nth-child(4) p em{
+      background:url({{ 'perabg4.svg' | asset_url }}) no-repeat;
+      background-size: 100%;
+      background-position: left 3px;
+      padding: 0 2px 0;
+    }
+
+  .couter-row:before{
+      background:url({{ 'starmarge.svg' | asset_url }}) no-repeat;
+      background-size: 100%;
+      background-position:center;
+    }
+
+  .couter-row:after{
+      background:url({{ 'magnifying-glass.svg' | asset_url }}) no-repeat;
+      background-size: 100%;
+      background-position:center;
+    }
+</style>
+
+<script>
+  const root = document.querySelector(":root");
+const txt = document.getElementsByClassName("txt");
+
+const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));
+
+addEventListener("DOMContentLoaded", run);
+
+async function run() {
+  var max_prog1 = 80 * 3.6; //80%
+  var max_prog2 = 70 * 3.6; //70%
+  var max_prog3 = 35 * 3.6; //35%
+  var x = 0;
+
+  while (x < max_prog1) {
+    x++;
+    await sleep(1);
+    root.style.setProperty("--prog1", x + "deg");
+    txt[0].textContent = Math.round(x / 3.6) + "%";
+  }
+  x = 0;
+  while (x < max_prog2) {
+    x++;
+    await sleep(1);
+    root.style.setProperty("--prog2", x + "deg");
+    txt[1].textContent = Math.round(x / 3.6) + "%";
+  }
+  x = 0;
+  while (x < max_prog3) {
+    x++;
+    await sleep(1);
+    root.style.setProperty("--prog3", x + "deg");
+    txt[2].textContent = Math.round(x / 3.6) + "%";
+  }
+}
+</script>
+
+
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}

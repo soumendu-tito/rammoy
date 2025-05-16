@@ -1,0 +1,38 @@
+
+ <!-- review section -->
+    <section class="trstd-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 titl-area">
+                    <h3 class="sec-titl">
+                        <p>Reviews</p>
+                        Trusted By Grown Ups Everywhere
+                        <p class="bnbr-rtingtxt"><i><img src="https://cdn.shopify.com/s/files/1/0948/6503/1497/files/star5.png?v=1746794537" alt="five star"></i>Over 2,000+ 5 star review</p>
+                       
+                    </h3>
+                    <a href="#" class="common-btn">Read Our Reviews</a>
+                </div>
+
+                <div class="col-md-8 col-sm-12"></div>
+            </div>
+           
+        </div>
+    </section>
+
+
+    <style>
+      .trstd-sec:before{
+         background: url({{ 'trustedsectn-shap.svg' | asset_url }}) no-repeat;
+         background-size:100%;
+         top:-42px;
+      }
+    </style>
+
+
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}

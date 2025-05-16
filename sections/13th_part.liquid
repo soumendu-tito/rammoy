@@ -1,0 +1,68 @@
+
+ <section class="bstslr-sec">
+   <div class="container">
+     <div class="bstslr-list d-flex justify-content-center">
+        <div class="bstslr-card">
+            <div class="img-wrpr">
+               <div class="image-hldr">
+                  <img src="{{ 'tummy gummies.svg' | asset_url }}" alt="lovebug">
+               </div>
+            </div>
+            <p>Bestsellers</p>
+        </div>
+
+        <div class="bstslr-card">
+             <div class="img-wrpr">
+               <div class="image-hldr babie-bg">
+                  <img src="{{ 'Bitmap2.svg' | asset_url }}" alt="lovebug">
+               </div>
+            </div>
+            <p>Babies</p>
+        </div>
+
+        <div class="bstslr-card">
+              <div class="img-wrpr">
+               <div class="image-hldr kid-bg">
+                  <img src="{{ 'tummy gummies-2.svg' | asset_url }}" alt="lovebug">
+               </div>
+            </div>
+            <p>Kids</p>
+        </div>
+
+        <div class="bstslr-card">
+              <div class="img-wrpr">
+               <div class="image-hldr wmn-bg">
+                  <img src="{{ 'tummy gummies3.svg' | asset_url }}" alt="lovebug">
+               </div>
+            </div>
+            <p>Women</p>
+        </div>
+
+        <div class="bstslr-card">
+              <div class="img-wrpr">
+               <div class="image-hldr gnrl-bg">
+                  <img src="{{ 'tummy gummies4.svg' | asset_url }}" alt="lovebug">
+               </div>
+            </div>
+            <p>General</p>
+        </div>
+    </div>
+   </div>
+ </section>
+
+
+ <style>
+
+   .bstslr-card .img-wrpr{
+      background:url({{ 'bgandborder.svg' | asset_url }}) no-repeat;
+      background-size: 100%;
+      background-position:center;
+    }
+ </style>
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}

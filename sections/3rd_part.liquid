@@ -1,0 +1,115 @@
+<!-- made by mom section -->
+
+        <section class="madebymon-sec">
+
+            <div class="drowicon one">
+                <img src="{{ 'pencil.svg' | asset_url }}" alt="pencil">
+            </div>
+            <div class="drowicon two">
+                <img src="{{ 'arrow-sktch.svg' | asset_url }}" alt="pencil">
+            </div>
+            <div class="drowicon three">
+                <img src="{{ 'arrow-sktch.svg' | asset_url }}" alt="pencil">
+            </div>
+            <div class="drowicon four">
+                <img src="{{ 'star-aktch.svg' | asset_url }}" alt="pencil">
+            </div>
+            <div class="drowicon five">
+                <img src="{{ 'hitxt.png' | asset_url }}" alt="pencil">
+            </div>
+            <div class="drowicon six">
+                <img src="{{ 'arrow2-sktch.svg' | asset_url }}" alt="pencil">
+            </div>
+            <div class="drowicon seven">
+                <img src="{{ 'love-sktch.svg' | asset_url }}" alt="pencil">
+            </div>
+            <div class="drowicon eight">
+                <img src="{{ 'star-aktch.svg' | asset_url }}" alt="pencil">
+            </div>
+             <div class="drowicon nine">
+                <img src="{{ 'lab-sktch.svg' | asset_url }}" alt="pencil">
+            </div>
+            <div class="container">
+                <div class="mademom-wrpr d-flex align-items-center">
+                    <div class="text-area">
+                        <div class="icon1"><img src="{{ 'star-marge.png' | asset_url }}" alt="star"></div>
+                        <div class="icon2"><img src="{{ 'rocketship.png' | asset_url }}" alt="rocket"></div>
+                        <h3 id="typingText"></h3>
+                        <p>During the birth of my son Hudson, I was put on broad-spectrum antibiotics as a preventive measure. Over the next few months both Hudson and I started getting sick. <b>The culprit: bad gut bacteria.</b> That’s why I created Lovebug.</p>
+                        <a href="#" class="common-btn cmn-btn2">Discover Our Journey</a>
+                    </div>
+                    <div class="imagearea">
+                        <img src="{{ 'mom-image.png' | asset_url }}" alt="mom">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <style>
+
+          .madebymon-sec {
+              background: var(--main-blue);
+              padding-bottom: 90px;
+              position: relative;
+          
+              &:after {
+                  content: '';
+                  position: absolute;
+                  bottom: -60px;
+                  width: 100%;
+                  height: 100px;
+                  /* background: url(../images/mom-aftershape.svg) repeat; */
+                  background-image: url({{ 'mom-aftershape.svg' | asset_url }}); 
+                  background-size: 100%;
+                  background-repeat: repeat-x;
+                  background-position: right -10px center;
+                  animation: scrollBackground 20s linear infinite;
+          
+              }
+        </style>
+
+
+    <script>
+    $(document).ready(function () {
+      const fullText = "Made by a Mom,<br>for Moms";
+      let index = 0;
+      let hasTyped = false;
+
+      function typeNextChar() {
+        if (index < fullText.length) {
+          const currentChar = fullText.charAt(index);
+
+          if (currentChar === '<' && fullText.substr(index, 4) === '<br>') {
+            $('#typingText').append('<br>');
+            index += 4;
+          } else {
+            $('#typingText').append(currentChar);
+            index++;
+          }
+
+          setTimeout(typeNextChar, 100);
+        }
+      }
+
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !hasTyped) {
+            hasTyped = true;
+            typeNextChar();
+          }
+        });
+      }, { threshold: 0.5 }); // 50% of element must be visible
+
+      observer.observe(document.getElementById('typingText'));
+    });
+  </script>
+
+
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}

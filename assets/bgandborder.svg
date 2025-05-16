@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="98px" viewBox="0 0 99 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval</title>
+    <defs>
+        <linearGradient x1="23.0689246%" y1="11.9415481%" x2="82.2276687%" y2="87.9592941%" id="linearGradient-1">
+            <stop stop-color="#2B3990" offset="0%"></stop>
+            <stop stop-color="#798BFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="R5---Dev-Facing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---Desktop" transform="translate(-419, -10004)" fill="#FFFFFF" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="Group-20" transform="translate(419.5135, 10004)">
+                <ellipse id="Oval" cx="49.1891892" cy="48.8372093" rx="48.1891892" ry="47.8372093"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
