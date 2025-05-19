@@ -1241,7 +1241,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
 
   .sec-titl{
     position: relative;
-    img{
+    .titlimg{
       position: absolute;
       top: -90px;
       left: 100px;
