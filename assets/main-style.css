@@ -1613,7 +1613,7 @@ footer{
 
             img {
                 width: 100px;
-                mask-origin: 0 auto;
+                margin: 0 auto;
             }
         }
 
