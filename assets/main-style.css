@@ -1235,22 +1235,6 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
 }
 
 
-.momlovel-sec{
-  background: var(--redoff);
-  padding: 150px 0 190px;
-
-  .sec-titl{
-    position: relative;
-    .titlimg{
-      position: absolute;
-      top: -90px;
-      left: 100px;
-      transform: scaleX(-1) rotate(-45deg);
-      width: 254px !important;
-    }
-  }
-}
-
 .gutbbl-sec{
   padding: 44px 0;
   position: relative;
@@ -1541,6 +1525,28 @@ footer{
   }
 
 }
+
+
+
+/* review section start */
+
+
+.momlovel-sec{
+  background: var(--redoff);
+  padding: 150px 0 190px;
+
+  .sec-titl{
+    position: relative;
+    .titlimg{
+      position: absolute;
+      top: -90px;
+      left: 100px;
+      transform: scaleX(-1) rotate(-45deg);
+      width: 254px !important;
+    }
+  }
+}
+
 
 
 /* RESPONSIVE START */
