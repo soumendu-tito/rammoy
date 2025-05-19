@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-SemiboldItalic.woff2?v=1747036073') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-SemiboldItalic.woff2?v=1747036072') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Medium_20bb68eb-083e-49a8-a2f7-dcbc92df9f1e.woff2?v=1747402111') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Medium_20bb68eb-083e-49a8-a2f7-dcbc92df9f1e.woff2?v=1747402111') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Bold.woff?v=1746802780') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Bold.woff?v=1746802780') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Bold.woff?v=1746802780') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Bold.woff?v=1746802780') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ExtraboldItalic.woff2?v=1747036071') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ExtraboldItalic.woff2?v=1747036071') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL Exlight';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ExtralightItalic.woff2?v=1747036071') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ExtralightItalic.woff2?v=1747036071') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ExtraboldItalic.woff2?v=1747036071') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ExtraboldItalic.woff2?v=1747036071') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Regular.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Regular.woff2?v=1747036072') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-LightItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-LightItalic.woff2?v=1747036072') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Italic.woff2?v=1747036071') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Italic.woff2?v=1747036071') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL Exlight';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ExtralightItalic.woff2?v=1747036071') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ExtralightItalic.woff2?v=1747036071') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-BoldItalic.woff2?v=1747036071') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-BoldItalic.woff2?v=1747036071') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-MediumItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-MediumItalic.woff2?v=1747036072') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Light.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Light.woff2?v=1747036072') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-MediumItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-MediumItalic.woff2?v=1747036072') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-MediumItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-MediumItalic.woff2?v=1747036072') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Extrabold.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Extrabold.woff2?v=1747036072') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Italic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Italic.woff2?v=1747036072') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Bold.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Bold.woff2?v=1747036072') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-BoldItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-BoldItalic.woff2?v=1747036072') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-ExtraboldItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-ExtraboldItalic.woff2?v=1747036072') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ThinItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-ThinItalic.woff2?v=1747036072') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-ExtralightItalic.woff2?v=1747036073') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-ExtralightItalic.woff2?v=1747036073') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-ExtralightItalic.woff2?v=1747036073') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-ExtralightItalic.woff2?v=1747036073') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Regular.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Regular.woff2?v=1747036072') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Semibold.woff2?v=1747036073') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Semibold.woff2?v=1747036073') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak Rounded TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Thin.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakRoundedTRIAL-Thin.woff2?v=1747036072') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-LightItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-LightItalic.woff2?v=1747036072') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-LightItalic.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-LightItalic.woff2?v=1747036072') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Thin.woff2?v=1747036072') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-Thin.woff2?v=1747036072') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ES Peak TRIAL';
+    src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-SemiboldItalic.woff2?v=1747036073') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/ESPeakTRIAL-SemiboldItalic.woff2?v=1747036073') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+/* Recoleta Fonts */
+
+
+
+@font-face {
+    font-family: 'Recoleta DEMO';
+  src: url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/Recoleta-RegularDEMO.woff2?v=1747035657') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0948/6503/1497/files/Recoleta-RegularDEMO.woff?v=1747035722') format('woff');
+      /* src: url("{{ '[Recoleta-RegularDEMO]' | asset_url }}") format("[woff2]");
+      src: url("{{ '[Recoleta-RegularDEMO]' | asset_url }}") format("[woff]"); */
+    /* src: url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Recoleta DEMO';
+    src: url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta DEMO';
+    src: url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta DEMO';
+    src: url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta DEMO';
+    src: url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta DEMO';
+    src: url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */

@@ -1,0 +1,60 @@
+<!-- banner section -->
+
+        <section class="banner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="banner-content-wrpr">
+                            <p>Award Winning Supplements <br>for the Whole Family</p>
+                            <h2>The Future of <br>Probiotics</h2>
+                            <p class="bnbr-rtingtxt"><i><img src="https://cdn.shopify.com/s/files/1/0948/6503/1497/files/star5.png?v=1746794537" alt="five star"></i>Over 2,000+ 5 star review</p>
+                            <a href="#" class="common-btn">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="banner-image-wrpr">
+                            <img src="https://cdn.shopify.com/s/files/1/0948/6503/1497/files/heroimage.png?v=1746794539" alt="hero lovebug">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-object banner-object1">
+                <img src="{{ 'bacteria-1.svg' | asset_url }}" alt="Lovebug">
+            </div>
+
+            <div class="banner-object banner-object2">
+                <img src="https://cdn.shopify.com/s/files/1/0948/6503/1497/files/star-marge.png?v=1746794537" alt="Lovebug">
+            </div>
+
+            <div class="banner-object banner-object3">
+                <img src="{{ 'star-with-tail.svg' | asset_url }}" alt="Lovebug">
+            </div>
+
+            <div class="banner-object banner-object4">
+                <img src="{{ 'lactobacillus-acidophilus.svg' | asset_url }}" alt="Lovebug">
+            </div>
+
+            <div class="banner-object banner-object5">
+                <img src="{{ 'batcteria-5.svg' | asset_url }}" alt="Lovebug">
+            </div>
+              <div class="banner-object banner-object6">
+                <img src="{{ 'star-2.svg' | asset_url }}" alt="Lovebug">
+            </div>
+        </section>
+
+
+        <style>
+          .partnr-sec:after{
+            background: url({{ 'banner-footer-shape.png' | asset_url }}) no-repeat;
+          }
+        </style>
+
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}

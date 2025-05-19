@@ -1,0 +1,98 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "first_part": {
+      "type": "first_part",
+      "settings": {}
+    },
+    "second_part": {
+      "type": "second_part",
+      "settings": {}
+    },
+    "3rd_part": {
+      "type": "3rd_part",
+      "settings": {}
+    },
+    "4th_part": {
+      "type": "4th_part",
+      "settings": {}
+    },
+    "5th_part": {
+      "type": "5th_part",
+      "settings": {}
+    },
+    "6th_part": {
+      "type": "6th_part",
+      "settings": {}
+    },
+    "7th_part": {
+      "type": "7th_part",
+      "settings": {}
+    },
+    "8th_part": {
+      "type": "8th_part",
+      "settings": {}
+    },
+    "9th_part": {
+      "type": "9th_part",
+      "settings": {}
+    },
+    "1747319624da40b381": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_homepage_m66HfX": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_homepage_m66HfX"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "10th_part": {
+      "type": "10th_part",
+      "settings": {}
+    },
+    "11th_part": {
+      "type": "11th_part",
+      "settings": {}
+    },
+    "12th_part": {
+      "type": "12th_part",
+      "settings": {}
+    },
+    "13th_part": {
+      "type": "13th_part",
+      "settings": {}
+    }
+  },
+  "order": [
+    "first_part",
+    "second_part",
+    "3rd_part",
+    "4th_part",
+    "5th_part",
+    "6th_part",
+    "7th_part",
+    "8th_part",
+    "9th_part",
+    "1747319624da40b381",
+    "10th_part",
+    "11th_part",
+    "12th_part",
+    "13th_part"
+  ]
+}

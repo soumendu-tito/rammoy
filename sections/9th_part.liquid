@@ -1,0 +1,86 @@
+<!-- What are experts saying section -->
+
+        <section class="what-exprt-sec">
+            <div class="container">
+                <h3 class="sec-titl">
+                    <p>Doctor Recommended</p>
+                    What are experts saying?
+                </h3>
+
+              <div class="owl-carousel owl-theme expart_slider">
+                  <div class="item">
+                        <div class="exprt-card">
+                            <div class="exprt-dp">
+                                <img src="{{ 'exoertdp1.png' | asset_url }}" alt="experts">
+                            </div>
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at justo vitae lorem molestie euismod.“</p>
+                            <div class="exprt-ftr d-flex">
+                                <span class="ftrdp">
+                                    <img src="{{ 'expartfdp1.png' | asset_url }}" alt="experts">
+                                </span>
+                                <div class="ftr-txt-wrp">
+                                    <p>Dr. Henry Crowe</p>
+                                    <span>Nutritionist</span>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="item">
+                    <div class="exprt-card">
+                            <div class="exprt-dp">
+                                <img src="{{ 'expart2.png' | asset_url }}" alt="experts">
+                            </div>
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at justo vitae lorem molestie euismod.“</p>
+                            <div class="exprt-ftr d-flex">
+                                <span class="ftrdp">
+                                    <img src="{{ 'expartfdp2.png' | asset_url }}" alt="experts">
+                                </span>
+                                <div class="ftr-txt-wrp">
+                                    <p>Dr. Janice Johnston</p>
+                                    <span>OBGYN</span>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="item">
+                    <div class="exprt-card">
+                            <div class="exprt-dp">
+                                <img src="{{ 'expart3dp.png' | asset_url }}" alt="experts">
+                            </div>
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at justo vitae lorem molestie euismod.“</p>
+                            <div class="exprt-ftr d-flex">
+                                <span class="ftrdp">
+                                    <img src="{{ 'expart3fdp.png' | asset_url }}" alt="experts">
+                                </span>
+                                <div class="ftr-txt-wrp">
+                                    <p>Dr. Gwen Weingold</p>
+                                    <span>Pediatrician</span>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                  
+              </div>
+
+                
+            </div>
+        </section>
+
+
+        <style>
+
+          .what-exprt-sec:after{
+            background: url({{ 'expartsec-bg.svg' | asset_url }}) no-repeat;
+            background-size:100%;
+          }
+      
+          .what-exprt-sec .container:after{
+            background: url({{ 'lab2.svg' | asset_url }}) no-repeat;
+          }
+        </style>
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}

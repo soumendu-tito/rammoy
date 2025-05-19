@@ -1,0 +1,165 @@
+
+
+<footer class="footer">
+  <div class="footerblock">
+    <div class="footer-top">
+    <div class="row">
+        <div class="col-md-4 col-sm-12 updts-col">
+            <h3 class="sec-titl">Super powered<br> updates <img src="{{ 'footerlogo.svg' | asset_url }}" alt="lovebug"></h3>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
+            <form>
+                <div class="form-group">
+                    <input type="email" placeholder="Email address">
+                </div>
+
+                <div class="form-group">
+                    <input type="number" placeholder="Phone number (optional)">
+                </div>
+
+                <div class="form-group">
+                    <button class="common-btn common-btn2">Sign up</button>
+                </div>
+            </form>
+        </div>
+
+       <div class="col-md-8 col-sm-12 footrlinks-col">
+          <div class="ftr-acrdn-wrp">
+             <button class="accordion">Shop</button>
+            <div class="panel">
+            <ul class="ftrlist">
+                <li><a href="#">General Health</a></li>
+                <li><a href="#">Immunity</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Babies</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+            </div>
+            
+          </div>
+           
+            <div class="ftr-acrdn-wrp">
+              <button class="accordion">Our Journey</button>
+            <div class="panel">
+                <ul class="ftrlist">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">What The 🤬</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Affiliates 💸</a></li>
+                </ul>
+            </div>
+            </div>
+            
+
+          <div class="ftr-acrdn-wrp">
+             <button class="accordion">The Gut Bible</button>
+            <div class="panel">
+                <ul class="ftrlist">
+                    <li><a href="#">Digestive Health</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Babies</a></li>
+                    <li><a href="#">Children</a></li>
+                    <li><a href="#">Diet</a></li>
+                </ul>
+
+            </div>
+          </div>
+
+
+         <div class="ftr-acrdn-wrp">
+
+           <button class="accordion">Support</button>
+            <div class="panel">
+                <ul class="ftrlist">
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Wholesale</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+
+            </div>
+         </div>
+
+            
+        </div>
+    </div>
+    </div>
+
+  </div>
+
+      <div class="row bottom-footer">
+        <div class="col-md-4 col-sm-12">
+            <ul class="social-footer">
+                <li>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="bi bi-pinterest"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="bi bi-tiktok"></i></a>
+                </li>
+            </ul>
+
+            <p>©Lovebug <span class="cyear">2024</span>  — Site by Manufactur</p>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+            <img src="{{ 'white-logo.svg' | asset_url }}" alt="lovebug" class="footerlogo"> 
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+            <img src="{{ 'inclogo.svg' | asset_url }}" alt="lovebug" class="inc"> 
+            <div class="fda-txt">
+                <h6>FDA Disclaimer</h6>
+                <p>The information, advice, statements, and testimonials made about LoveBug Probiotics products mentioned on this website have not been evaluated by the United States Food and Drug Administration (FDA). The information on this site and the products listed are not intended to diagnose, treat, cure or prevent disease, nor are they intended to replace proper medical help. It is always recommended to consult with a healthcare professional before starting any regimen of probiotics. User-submitted testimonials are based on individual results and do not constitute a guarantee that you will achieve the same results – what works for one may not work for another.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<style>
+  .panel {
+  /* display: none; */
+  overflow: hidden;
+}
+
+ footer:after{
+    background:url({{ 'section-bg-shape.svg' | asset_url }}) no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+  }
+</style>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
