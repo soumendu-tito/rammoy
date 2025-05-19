@@ -8,7 +8,7 @@
     {% assign blog = blogs['the-gut-bible'] %}  <!-- Replace 'handle' with the blog handle -->
           {% for article in blog.articles %}
           <h1>{{article.tags}}{{article.metafields.custom.read_time}}</h1>
-         <img src="{{article.image | image_url: width: 50}}"/> 
+         <img src="{{article.image | image_url: width: 60}}"/> 
             <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
             <p>{{ article.excerpt }}</p>
           {% endfor %}
