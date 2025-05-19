@@ -481,8 +481,238 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
 }
 
 .family-probtn-sec {
-    padding: 100px 0;
+    padding: 130px 0;
+
 }
+
+
+.shopcatgary-wrpr {
+    .nav-pills {
+        justify-content: center;
+        margin:14px 0 38px;
+
+        li {
+            margin-right: 25px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            button {
+                padding: 4px 15px 6px;
+                text-transform: uppercase;
+                font-size: 15px;
+                line-height: 27px;
+                font-weight: 600;
+                color: var(--main-blue);
+                border-radius: 22px;
+                -webkit-border-radius: 22px;
+                -moz-border-radius: 22px;
+                -ms-border-radius: 22px;
+                -o-border-radius: 22px;
+
+                &.active {
+                    background: #9CB4FF;
+                    color: var(--main-blue);
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        padding-left: 60px;
+    }
+
+    .owl-nav {
+        position: absolute;
+        top: -78px;
+        right: 30px;
+        display: flex;
+        align-items: center;
+
+        button {
+            width: 46px;
+            height: 46px;
+            background: var(--main-blue) !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff !important;
+            font-size: 40px !important;
+            line-height: 40px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+
+            &.owl-prev {
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                margin-right: 7px;
+            }
+
+            span {
+                width: 16px;
+                height: 16px;
+                border: 2px solid #fff;
+                transform: rotate(45deg);
+                border-left: 0;
+                border-bottom: 0;
+                position: relative;
+                left: -4px;
+                border-radius: 2px;
+
+            }
+
+          &.disabled{
+            opacity: .2;
+          }
+        }
+    }
+
+    .owl-dots{
+        display: flex;
+        justify-content: center;
+        margin: 42px 0 35px;
+        button{
+            margin: 0 6px;
+            span{
+                width: 64px;
+                height: 4px;
+                border-radius: 2px;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                -ms-border-radius: 2px;
+                -o-border-radius: 2px;
+                background: var(--main-blue);
+                opacity: .5;
+                display: block;
+            }
+
+            &.active{
+                span{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .common-btn{
+        padding: 16px 34px;
+        margin: 0 auto;
+        display: table;
+    }
+}
+
+
+.sell-prodct-card {
+
+    .img-hldr {
+        padding: 63px 22px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        background: #ddd;
+        position: relative;
+
+        .prdct-txt {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0 18px;
+
+            p {
+                margin: 0;
+                color: #fff;
+                font-size: 15px;
+                line-height: 16px;
+            }
+
+            a {
+                display: inline-block;
+                padding: 6px 25px;
+                background: #fff;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+                font-size: 19px;
+                line-height: 19px;
+                color: var(--main-blue);
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
+    .prodct-footer {
+        margin-top: 11px;
+
+        .prdctrating-wrpr {
+            justify-content: space-between;
+            margin: 0 0 5px 0;
+            padding: 0 14px 0 0;
+
+            p {
+                font-weight: 500;
+                color: var(--main-blue);
+                margin: 0;
+                font-size: 15px;
+
+                span {
+                    position: relative;
+                    top: 2px;
+
+                }
+            }
+
+            img {
+                width: 82px;
+                display: inline-block;
+
+            }
+        }
+
+        h6 {
+            font-size: 20px;
+            line-height: 22px;
+            font-weight: 500;
+            margin: 0 0 4px 0;
+            color: var(--main-blue);
+            font-family: 'ES Peak Rounded TRIAL';
+        }
+
+        p.ageofuse {
+            font-size: 15px;
+            line-height: 16px;
+            margin: 0;
+            color: var(--main-blue);
+            font-weight: 500;
+        }
+    }
+
+
+}
+
+.sell-prodct-card.darkpink .img-hldr {
+    background: #E50695;
+
+}
+
+
+
 
 .whtare-probiots-sec {
     background: var(--main-blue) url({{ 'whataresec_bg.svg' | asset_url }}) no-repeat;
@@ -1312,5 +1542,43 @@ footer{
     }
   }
 
-  
 }
+
+
+/* RESPONSIVE START */
+
+
+@media(max-width:1400px){
+  .realcustomr-sec {
+    & .couter-row {
+        .coutercard {
+            width: 23%;
+            margin: 0 10px;
+          p{
+            font-size: 20px;
+          }
+        }
+    }
+  }
+
+  .bstslr-sec {
+    padding: 100px 0 150px 0;
+  }
+
+
+  .madebymon-sec {
+      & .drowicon {
+          &.five {
+              right: 35px;
+          }
+          &.six {
+              right: 95px;
+          }
+      }
+  }
+}
+
+
+
+
+

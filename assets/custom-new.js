@@ -41,26 +41,28 @@ $(document).ready(function(){
     });
 
 
-  // typeing text
+  // bestseller slider
 
-  //  const fullText = "Made by a Mom,<br>for Moms";
-  // let index = 0;
-
-  // function typeNextChar() {
-  //   if (index < fullText.length) {
-  //     const currentChar = fullText.charAt(index);
-
-  //     if (currentChar === '<' && fullText.substr(index, 4) === '<br>') {
-  //       $('#typingText').append('<br>');
-  //       index += 4; // Skip the entire "<br>"
-  //     } else {
-  //       $('#typingText').append(currentChar);
-  //       index++;
-  //     }
-
-  //     setTimeout(typeNextChar, 100);
-  //   }
-  // }
-
-  // typeNextChar(); // Start typing
+    $('.bestslr-slider').owlCarousel({
+        loop:true,
+        margin:20,
+        nav:true,
+        dots:true,
+        loop:false,
+        navText: [
+            "<span></span>",
+            "<span></span>"
+          ],
+        responsive:{
+            0:{
+                items:1.5
+            },
+            600:{
+                items:2.1
+            },
+            1000:{
+                items:4.2
+            }
+        }
+    });
 });
