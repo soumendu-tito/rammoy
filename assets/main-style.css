@@ -1579,6 +1579,148 @@ footer{
 }
 
 
+@media(max-width:1199px){
+  .header, .header:not(.drawer-menu).page-width {
+      & .list-menu {
+          & li {
+              a {
+                  font-size: 12px;
+                  padding: 15px 4px;
+              }
+          }
+      }
+  }
+
+    footer {
+      & .bottom-footer {
+          .fda-txt {
+             width: 100%;
+          }
+      }
+  }
+
+    footer {
+      & .bottom-footer {
+          .footerlogo {
+              width: 75%;
+              margin: 0 auto;
+              display: table;
+          }
+      }
+  }
+
+
+  .what-exprt-sec {
+      & .exprt-card {
+          & .exprt-ftr {
+              & .ftr-txt-wrp {
+                  p {
+                      font-size: 19px;
+                  }
+              }
+          }
+      }
+  }
+
+
+  .what-exprt-sec {
+      & .container {
+          &:after {
+            width: 195px;
+            height: 165px;
+            background-size: 100% !important;
+          }
+      }
+  }
+
+
+  .why-lovebug-sec {
+      & .container-fluid {
+          & .sction-bgicon {
+              &.two {
+                  top: 82px;
+                  left: 70px;
+                  width: 150px;
+              }
+
+                &.five {
+                top: 242px;
+                right: 25px;
+                width: 123px;
+            }
+
+            &.three {
+                top: 450px;
+                left: -7px;
+                width: 85px;
+            }
+
+            &.one {
+                bottom: -35px;
+                left: 195px;
+                width: 77px;
+            }
+          }
+      }
+  }
+
+
+  .gutbbl-sec:after {
+    bottom: -53px;
+  }
+
+  .banner {
+    height: 80vh;
+    .row {
+        .banner-content-wrpr {
+            h2 {
+                font-size: 60px;
+                line-height: 58px;
+            }
+        }
+
+      .banner-image-wrpr{
+        top: 192px;
+      }
+    }
+      .banner-object3 {
+          width: 235px;
+      }
+
+    .banner-object4{
+      width: 150px;
+    }
+
+    .banner-object5{
+      width: 135px;
+      right: 14px;
+    }
+
+        .banner-object6 {
+          top: auto;
+          left: 455px;
+          bottom: 130px;
+        }
+  }
+
+
+  .realcustomr-sec {
+        & .couter-row {
+            .coutercard {
+                width: 22%;
+                p{
+                  font-size: 16px;
+                  line-height: 20px;
+                }
+              }
+          }
+      }
+  }
+
+  
+}
+
+
 
 
 
