@@ -1242,11 +1242,11 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
   .sec-titl{
     position: relative;
     img{
-      width: 254px;
       position: absolute;
       top: -90px;
       left: 100px;
       transform: scaleX(-1) rotate(-45deg);
+      width: 254px;
     }
   }
 }
