@@ -1239,9 +1239,6 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
   background: var(--redoff);
   padding: 150px 0 190px;
 
-  .container{
-    position: relative;
-  }
   .sec-titl{
     img{
       width: 254px;
