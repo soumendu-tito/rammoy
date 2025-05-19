@@ -9,9 +9,10 @@
        
         <div class="owl-carousel owl-theme bestslr-slider">
           {% for article in blog.articles %}  
-            <div class="item">
-              
-                <div class="sell-prodct-card darkpink">
+             <div class="item">
+               
+                
+                 <div class="sell-prodct-card darkpink">
                               <div class="img-hldr">
                                   <img src="{{article.image | image_url: width: 60}}" alt="Lovebug">
                                   <div class="prdct-txt">
@@ -26,14 +27,13 @@
                                 
                               </div> 
                           </div>
-                      </div>
-                    </div>        
-                </div>
-          {% endfor %}
+                  </div>
+                   
+                      
+            </div>
+          {% endfor %}  
         </div>
-         
-
-</section>
+   </section>
 
 <style>
   .gutbbl-sec:before, .gutbbl-sec:after{
