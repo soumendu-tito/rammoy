@@ -1537,6 +1537,7 @@ footer{
 
   .sec-titl{
     position: relative;
+    margin-bottom: 43px;
     .titlimg{
       position: absolute;
       top: -90px;
@@ -1550,7 +1551,7 @@ footer{
 
 
 .momsloveslider-wrpr {
-    padding: 0 20px;
+    padding: 0 0 0 60px;
 
     .momslv-card {
         width: 314px;
@@ -1612,6 +1613,7 @@ footer{
 
             img {
                 width: 100px;
+                margin: 0 auto;
             }
         }
 
