@@ -6,47 +6,35 @@
     </div>
 
     {% assign blog = blogs['the-gut-bible'] %}  <!-- Replace 'handle' with the blog handle -->
-          {% for article in blog.articles %}
+        {% for article in blog.articles %}
+        <div class="owl-carousel owl-theme bestslr-slider">
+               
+          <div class="item">
+             
+            <div class="sell-prodct-card darkpink">
+                  <div class="img-hldr">
+                      <img src="{{article.image | image_url: width: 60}}" alt="Lovebug">
+                      <div class="prdct-txt">
+                          <p>{{article.tags}}{{article.metafields.custom.read_time}}</p>
+                          <a href="{{ article.url }}">{{ article.title }}</a>
+                      </div>
+                  </div>
 
-
-         <div class="owl-carousel owl-theme bestslr-slider">
-                            <div class="item">
-                                <div class="sell-prodct-card darkpink">
-                                    <div class="img-hldr">
-                                        <img src="{{ 'product1.svg' | asset_url }}" alt="Lovebug">
-                                        <div class="prdct-txt">
-                                            <p>Kids Health</p>
-                                            <a href="#" class="addbtn">Add</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="prodct-footer">
-                                        <div class="prdctrating-wrpr d-flex">
-                                            <p><i><img src="{{ '5star2.svg' | asset_url }}" alt="lovebug"></i> <span>4.8</span></p>
-                                            <p>$23.95</p>
-                                        </div>
-                                        <h6>Kids Probiotic Chewables</h6>
-                                        <p class="ageofuse">4+ Years</p>
-                                    </div>
-                                </div>
-                            </div>
-                           
+              <div class="prodct-footer">
+                  <div class="prdctrating-wrpr d-flex">
+                      {{ article.excerpt }}
+                    
+                  </div> 
+               </div>
+          </div>
+        </div>        
                          
 
-                        </div>
+      </div>
 
-                    </div>
-
-
-
-
-
-
-          <h1>{{article.tags}}{{article.metafields.custom.read_time}}</h1>
-         <img src="{{article.image | image_url: width: 60}}"/> 
-            <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
-            <p>{{ article.excerpt }}</p>
-          {% endfor %}
+  </div>
+         
+{% endfor %}
 </section>
 
 <style>
