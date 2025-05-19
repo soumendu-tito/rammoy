@@ -1246,7 +1246,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
       top: -90px;
       left: 100px;
       transform: scaleX(-1) rotate(-45deg);
-      width: 254px;
+      width: 254px !important;
     }
   }
 }
