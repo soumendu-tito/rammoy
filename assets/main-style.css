@@ -1240,6 +1240,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
   padding: 150px 0 190px;
 
   .sec-titl{
+    position: relative;
     img{
       width: 254px;
       position: absolute;
