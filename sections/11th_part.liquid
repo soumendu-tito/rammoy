@@ -2,9 +2,38 @@
     <div class="container">
         <h3 class="sec-titl">
             <p>What's Your Gut Feeling?</p>
-            The Gut Bible</h3>
+            The Gut Bible </h3>
     </div>
-</section>
+
+    {% assign blog = blogs['the-gut-bible'] %}  <!-- Replace 'handle' with the blog handle -->
+       
+        <div class="owl-carousel owl-theme bestslr-slider">
+          {% for article in blog.articles %}  
+             <div class="item">
+               
+                
+                 <div class="sell-prodct-card darkpink">
+                              <div class="img-hldr">
+                                  <img src="{{article.image | image_url: width: 60}}" alt="Lovebug">
+                                  <div class="prdct-txt">
+                                      <p>{{article.tags}}{{article.metafields.custom.read_time}}</p>
+                                      <a href="{{ article.url }}">{{ article.title }}</a>
+                                  </div>
+                              </div>
+
+                          <div class="prodct-footer">
+                              <div class="prdctrating-wrpr d-flex">
+                                  {{ article.excerpt }}
+                                
+                              </div> 
+                          </div>
+                  </div>
+                   
+                      
+            </div>
+          {% endfor %}  
+        </div>
+   </section>
 
 <style>
   .gutbbl-sec:before, .gutbbl-sec:after{

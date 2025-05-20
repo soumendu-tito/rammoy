@@ -480,11 +480,6 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
     }
 }
 
-.family-probtn-sec {
-    padding: 130px 0;
-
-}
-
 
 .shopcatgary-wrpr {
     .nav-pills {
@@ -608,6 +603,11 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
     }
 }
 
+.family-probtn-sec {
+    padding: 130px 0;
+
+}
+
 
 .sell-prodct-card {
 
@@ -703,7 +703,29 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
         }
     }
 
+      
 
+
+}
+
+
+.bestslr-slider{
+
+  .owl-stage{
+      .item{
+
+         &::nth-child(3){
+             .sell-prodct-card{
+  
+             .img-hldr{
+                background:#F97FB5;
+              }
+             
+           }
+         }
+         
+    }
+  }
 }
 
 .sell-prodct-card.darkpink .img-hldr {
@@ -1235,24 +1257,6 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
 }
 
 
-.momslovelovebug-sec{
-  background: var(--redoff);
-  padding: 150px 0 190px;
-
-  .container{
-    position: relative;
-  }
-  .sec-titl{
-    img{
-      width: 254px;
-      position: absolute;
-      top: -90px;
-      left: 100px;
-      transform: scaleX(-1) rotate(-45deg);
-    }
-  }
-}
-
 .gutbbl-sec{
   padding: 44px 0;
   position: relative;
@@ -1545,6 +1549,147 @@ footer{
 }
 
 
+
+/* review section start */
+
+
+.momlovel-sec{
+  background: var(--redoff);
+  padding: 150px 0 130px;
+  position: relative;
+
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 91px;
+  }
+
+  .sec-titl{
+    position: relative;
+    margin-bottom: 43px;
+    .titlimg{
+      position: absolute;
+      top: -90px;
+      left: 100px;
+      transform: scaleX(-1) rotate(-45deg);
+      width: 254px !important;
+    }
+  }
+}
+
+
+
+.momsloveslider-wrpr {
+    padding: 0 0 0 60px;
+
+    .momslv-card {
+        width: 314px;
+        height: 460px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        background: #000;
+        padding: 60px 37px;
+        text-align: center;
+        position: relative;
+
+        &:is(.blue) {
+            background: #3E52CE;
+        }
+
+        &:is(.pink) {
+            background: #F97FB5;
+        }
+
+        .dp {
+            width: 60px;
+            height: 60px;
+            background: #fff;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            background: #fff;
+            color: #2B3990;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 60px;
+            margin: 0 auto 10px;
+        }
+
+        span {
+            font-size: 15px;
+            color: #fff;
+            line-height: 27px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 27px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 25px;
+            color: #fff;
+            margin: 0;
+            font-weight: 200;
+        }
+
+        .rateing {
+            margin-top: 50px;
+
+            img {
+                width: 100px;
+                margin: 0 auto;
+            }
+        }
+
+        &.imagebg {
+            padding: 0;
+            overflow: hidden;
+
+            .content-wrpr {
+                width: 90%;
+                position: absolute;
+                left: 18px;
+                bottom: 14px;
+                text-align: left;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: 5px;
+                }
+
+                span {
+                    font-size: 15px;
+                    line-height: 27px;
+                    margin-bottom: 0;
+                    font-weight: 800;
+                }
+            }
+
+            .img-feotxt {
+                font-size: 14px;
+                line-height: 15px;
+                position: absolute;
+                top: 10px;
+                left: 18px;
+                opacity: .5;
+                font-weight:400;
+                display: block;
+            }
+        }
+    }
+}
+
+
+
 /* RESPONSIVE START */
 
 
@@ -1576,6 +1721,148 @@ footer{
           }
       }
   }
+}
+
+
+@media(max-width:1199px){
+  .header, .header:not(.drawer-menu).page-width {
+      & .list-menu {
+          & li {
+              a {
+                  font-size: 12px;
+                  padding: 15px 4px;
+              }
+          }
+      }
+  }
+
+    footer {
+      & .bottom-footer {
+          .fda-txt {
+             width: 100%;
+          }
+      }
+  }
+
+    footer {
+      & .bottom-footer {
+          .footerlogo {
+              width: 75%;
+              margin: 0 auto;
+              display: table;
+          }
+      }
+  }
+
+
+  .what-exprt-sec {
+      & .exprt-card {
+          & .exprt-ftr {
+              & .ftr-txt-wrp {
+                  p {
+                      font-size: 19px;
+                  }
+              }
+          }
+      }
+  }
+
+
+  .what-exprt-sec {
+      & .container {
+          &:after {
+            width: 195px;
+            height: 165px;
+            background-size: 100% !important;
+          }
+      }
+  }
+
+
+  .why-lovebug-sec {
+      & .container-fluid {
+          & .sction-bgicon {
+              &.two {
+                  top: 82px;
+                  left: 70px;
+                  width: 150px;
+              }
+
+                &.five {
+                top: 242px;
+                right: 25px;
+                width: 123px;
+            }
+
+            &.three {
+                top: 450px;
+                left: -7px;
+                width: 85px;
+            }
+
+            &.one {
+                bottom: -35px;
+                left: 195px;
+                width: 77px;
+            }
+          }
+      }
+  }
+
+
+  .gutbbl-sec:after {
+    bottom: -53px;
+  }
+
+  .banner {
+    height: 80vh;
+    .row {
+        .banner-content-wrpr {
+            h2 {
+                font-size: 60px;
+                line-height: 58px;
+            }
+        }
+
+      .banner-image-wrpr{
+        top: 192px;
+      }
+    }
+      .banner-object3 {
+          width: 235px;
+      }
+
+    .banner-object4{
+      width: 150px;
+    }
+
+    .banner-object5{
+      width: 135px;
+      right: 14px;
+    }
+
+        .banner-object6 {
+          top: auto;
+          left: 455px;
+          bottom: 130px;
+        }
+  }
+
+
+  .realcustomr-sec {
+        & .couter-row {
+            .coutercard {
+                width: 22%;
+                p{
+                  font-size: 16px;
+                  line-height: 20px;
+                }
+              }
+          }
+      }
+  }
+
+  
 }
 
 
