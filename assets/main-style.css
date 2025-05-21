@@ -1355,11 +1355,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
       }
   }
 
-  .sec-titl{
-    color: red;
   }
-  
-}
 
 
  @keyframes floatUpDown {
