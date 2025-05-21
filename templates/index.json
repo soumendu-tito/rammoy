@@ -45,6 +45,23 @@
       "type": "9th_part",
       "settings": {}
     },
+    "1747752995b12a4315": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_kMYTtN": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_kMYTtN"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "10th_part": {
       "type": "10th_part",
       "settings": {}
@@ -72,6 +89,7 @@
     "7th_part",
     "8th_part",
     "9th_part",
+    "1747752995b12a4315",
     "10th_part",
     "11th_part",
     "12th_part",

@@ -2,7 +2,7 @@
     <div class="container">
         <h3 class="sec-titl">
             <p>What's Your Gut Feeling?</p>
-            The Gut Bible13 </h3>
+            The Gut Bible </h3>
     </div>
 
     {% assign blog = blogs['the-gut-bible'] %}  <!-- Replace 'handle' with the blog handle -->
@@ -12,19 +12,21 @@
              <div class="item">
                
                 
-                 <div class="sell-prodct-card darkpink">
+                 <div class="sell-prodct-card blog-card">
                               <div class="img-hldr">
                                   <img src="{{article.image | image_url: width: 60}}" alt="Lovebug">
                                   <div class="prdct-txt">
-                                      <p>{{article.tags}}{{article.metafields.custom.read_time}}</p>
-                                      <a href="{{ article.url }}">{{ article.title }}</a>
+                                      <!-- <p>{{article.tags}}{{article.metafields.custom.read_time}}</p> -->
+                                    <p>Digestive Health</p>
+                                      
                                   </div>
                               </div>
 
                           <div class="prodct-footer">
-                              <div class="prdctrating-wrpr d-flex">
-                                  {{ article.excerpt }}
-                                
+                              <div class="prdctrating-wrpr">
+                                  
+                                <a href="{{ article.url }}">{{ article.title }}</a>
+                                <span>Read time: 4 mins</span>
                               </div> 
                           </div>
                   </div>
@@ -33,6 +35,8 @@
             </div>
           {% endfor %}  
         </div>
+
+      <a href="#" class="common-btn">Explore The Gut Bible</a>
    </section>
 
 <style>
