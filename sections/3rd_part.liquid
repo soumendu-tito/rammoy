@@ -35,7 +35,7 @@
                         <div class="icon1" data-aos="zoom-out-up" data-aos-duration="1500"><img src="{{ 'star-marge.png' | asset_url }}" alt="star"></div>
                         <div class="icon2"><img src="{{ 'rocketship.png' | asset_url }}" alt="rocket"></div>
                         <h3 id="typingText"></h3>
-                        <p>During the birth of my son Hudson, I was put on broad-spectrum antibiotics as a preventive measure. Over the next few months both Hudson and I started getting sick. <b>The culprit: bad gut bacteria.</b> That’s why I created Lovebug.</p>
+                        <p id="typingTextpera"></p>
                         <a href="#" class="common-btn cmn-btn2">Discover Our Journey</a>
                     </div>
                     <div class="imagearea">
@@ -104,6 +104,47 @@
       observer.observe(document.getElementById('typingText'));
     });
   </script>
+
+
+  <script>
+  $(document).ready(function () {
+    const fullTextpera = `During the birth of my son Hudson, I was put on broad-spectrum antibiotics as a preventive measure. Over the next few months both Hudson and I started getting sick. <b>The culprit: bad gut bacteria.</b> That’s why I created Lovebug.`;
+    let index = 0;
+    let hasTyped = false;
+
+    function typeNextChar() {
+      if (index < fullTextpera.length) {
+        const currentChar = fullTextpera[index];
+
+        // Handle HTML tags as one block
+        if (currentChar === '<') {
+          const closingIndex = fullTextpera.indexOf('>', index);
+          const tag = fullTextpera.substring(index, closingIndex + 1);
+          $('#typingTextpera').append(tag);
+          index = closingIndex + 1;
+        } else {
+          $('#typingTextpera').append(currentChar);
+          index++;
+        }
+
+        setTimeout(typeNextChar, 100);
+      }
+    }
+
+    const observer = new IntersectionObserver(function (entries) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !hasTyped) {
+          hasTyped = true;
+          setTimeout(() => {
+            typeNextChar();
+          }, 2700); // 2-second delay before typing starts
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(document.getElementById('typingTextpera'));
+  });
+</script>
 
   <script>
     AOS.init();

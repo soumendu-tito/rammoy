@@ -351,6 +351,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
                 font-weight: 600;
                 text-align: center;
                 margin: 0 auto 18px;
+                width: 100%;
             }
 
             p {
@@ -359,6 +360,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
                 color: var(--main-blue);
                 margin: 0 0 32px 0;
                 font-weight: 300;
+                width: 100%;
 
                 b {
                     font-weight: 500;
@@ -367,6 +369,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
 
             a {
                 padding: 16px 35px 10px;
+                height: 63px;
             }
         }
 
